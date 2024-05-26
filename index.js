@@ -32,7 +32,7 @@ function cadastroEmpresas(requisicao, resposta){
             cidade: cidade,
             estado: estado,
             cep: cep,
-            email: emai,
+            email: email,
             telefone: telefone,
         });
         resposta.redirect('/listaEmpresas');

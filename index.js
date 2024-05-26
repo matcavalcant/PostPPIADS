@@ -24,7 +24,7 @@ function cadastroEmpresas(requisicao, resposta){
     const telefone = requisicao.body.telefone;
 
     if(cnpj && razaosocial && nomefantasia && endereco && cidade && estado && cep && email && telefone){
-        listaEmpresas.push({
+            listaEmpresas.push({
             cnpj: cnpj,
             razaosocial: razaosocial,
             nomefantasia: nomefantasia,
@@ -246,7 +246,7 @@ app.get('/listaEmpresas', (req,resp)=>{
         resp.write(`<td>${listaEmpresas[i].cidade}`);
         resp.write(`<td>${listaEmpresas[i].estado}`);
         resp.write(`<td>${listaEmpresas[i].cep}`);
-        resp.write(`<td>${listaEmpresas[i].emai}`);
+        resp.write(`<td>${listaEmpresas[i].email}`);
         resp.write(`<td>${listaEmpresas[i].telefone}`);
         resp.write('</tr>');
     }

@@ -1,0 +1,29 @@
+{
+  "name": "postppiads",
+  "version": "1.0.0",
+  "description": "WEB APP HTTP POST e validacao dos dados do formulario html",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matcavalcant/PostPPIADS.git"
+  },
+  "keywords": [
+    "HTTP",
+    "POST",
+    "validacao"
+  ],
+  "author": "Mateus Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matcavalcant/PostPPIADS/issues"
+  },
+  "homepage": "https://github.com/matcavalcant/PostPPIADS#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

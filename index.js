@@ -39,14 +39,14 @@ function cadastroEmpresas(requisicao, resposta){
     }
     else{
         resposta.write(`
-        <!DOCTYPE html>
-        <html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
         
         <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Cadastro de Pacientes</title>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Cadastro de Pacientes</title>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
                 integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         </head>
         
@@ -203,13 +203,13 @@ function cadastroEmpresas(requisicao, resposta){
                         </div>
                             <button class="btn btn-primary" type="submit">Finalizar Cadastro</button>
                             <a class="btn btn-secondary" href="/">Voltar</a>
-                        </form>
-                    </div>
-                </body>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"></script>
-            </html>`);
+                </form>
+            </div>
+        </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </html>`);
             resposta.end();
     }
 }

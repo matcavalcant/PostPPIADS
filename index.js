@@ -64,7 +64,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o CNPJ!
-                        < /div>
+                        </div>
             `);
         }
         resposta.write(` 
@@ -78,7 +78,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(` 
                         <div class="alert alert-danger" role="alert">
                              Informe o nome da Razão Social da empresa!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -91,7 +91,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o nome fantasia da empresa!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -104,7 +104,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o endereco!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -117,7 +117,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe a cidade!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -158,7 +158,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Selcione o estado!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -170,7 +170,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o CEP!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -184,7 +184,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o Email!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>
@@ -197,7 +197,7 @@ function cadastroEmpresas(requisicao, resposta){
             resposta.write(`
                         <div class="alert alert-danger" role="alert">
                             Informe o telefone!
-                        < /div>`);
+                        </div>`);
         }
         resposta.write(`
                         </div>

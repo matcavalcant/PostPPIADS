@@ -8,7 +8,7 @@ let listaEmpresas = [];
 
 
 const app = express();
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: true}));
 
 app.use(express.static(path.join(process.cwd(), 'publico')));
 
@@ -21,7 +21,7 @@ function cadastroEmpresas(requisicao, resposta){
     const estado = requisicao.body.estado;
     const cep = requisicao.body.cep;
     const email = requisicao.body.email;
-    const telefone = telefone.body.telefone;
+    const telefone = requisicao.body.telefone;
 
     if(cnpj && razaosocial && nomefantasia && endereco && cidade && estado && cep && email && telefone){
         listaEmpresas.push({
